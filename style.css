@@ -50,6 +50,7 @@ p, h1 {
     border: none;
     font-size: 36px;
     color: white;
+    transition: 80ms ;
     
 }
 
@@ -58,11 +59,25 @@ p, h1 {
     border: none;
     font-size: 36px;
     color: white;
+    transition: 80ms;
 }
+
 
 .facebook-button {
     background: none;
     border: none;
     font-size: 36px;
-    color: white
+    color: white;
+    transition: 80ms;
+}
+
+
+.btn button:hover {
+    cursor: pointer;
+    opacity: 75%;
+
+}
+
+.btn button:active {
+    opacity: 50%;
 }
