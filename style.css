@@ -1,0 +1,68 @@
+body {
+    background-image: url(assets/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p, h1 {
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.parent {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #313030;
+    transition: transform, .2s;
+    width: 400px;
+    height: 200px;
+    
+    
+    color: whitesmoke;
+}
+
+.parent:hover {
+    transform: scale(1.2);
+}
+
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github-button {
+    background: none;
+    border: none;
+    font-size: 36px;
+    color: white;
+    
+}
+
+.linkedin-button {
+    background: none;
+    border: none;
+    font-size: 36px;
+    color: white;
+}
+
+.facebook-button {
+    background: none;
+    border: none;
+    font-size: 36px;
+    color: white
+}
